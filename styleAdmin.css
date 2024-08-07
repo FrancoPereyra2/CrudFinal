@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(14, 1, 43);
+    color: white;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.title-icon {
+    cursor: pointer;
+    padding-left: 200px;
+    position: absolute;
+    left: 0;
+}
+.form-control {
+    width: 80%;  
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: black;
+    margin: 0 auto; 
+}
+.container {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+#inputSabanas,
+#inputHabt,
+#inputAlm,
+#inputBatas {
+    color: black;
+}
+#BtnAdd,
+#BtnUpdate {
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+}
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+
+}
+

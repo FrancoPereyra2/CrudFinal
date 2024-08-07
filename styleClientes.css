@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(1, 39, 46);
+    color: white;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container a:first-of-type {
+    align-self: flex-start;
+}
+
+.header-container a.logo-link {
+    margin-top: 10px;
+}
+
+
+.volver {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    font-size: 30px;
+}
+.table {
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.table th, .table td {
+    border: 1px solid white;
+    
+}
+.table th {
+    background-color: rgba(68, 53, 53, 0.116);
+}
+.form-control {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: black;
+    display: block;
+    margin: 10px auto;
+}
+.container {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+#ImputSalida, #ImputIngreso, #inputEmail, #inputName, #ImputNumero {
+    color: black;
+}
+#btnAdd, #btnUpdate {
+    width: 150px;
+    height: 40px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#installmentsGroup {
+    display: none;
+}
+.table td .btn {
+    margin-right: 5px;
+    display: inline-block;
+}
+.btn-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
